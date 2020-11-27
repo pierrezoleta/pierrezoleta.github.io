@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TOODOOS</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Montserrat|Handlee" rel="stylesheet">
+    <link rel="stylesheet" href="css/teudeu.css" />
+    <script defer src="teudeu.js"></script>
+</head>
+<body>
+    <div class="main-container">
+
+        
+
+        <div class="button-right">
+            <form action="" data-move-right-button>
+                <button>></button>
+            </form>
+        </div>
+
+        <div class="button-left">
+            <form action="" data-move-left-button>
+                <button> &lt; </button>
+            </form>
+        </div>
+
+        <div class="button-clear">
+            <form action="" data-button-clear>
+                <button class="btn delete"> Clear all completed tasks </button>
+            </form>
+        </div>
+
+ 
+
+        <div class="sub-container">
+            
+            <div class="tasks-container" id= "data-first-container" data-first-container>
+                <h1 class="tasks-container-header">Monday</h1>
+                <div class="tasks" id="pSort">
+                    <form action="" form-mon>
+                        <input type="text" class="new-input list"
+                        input-mon
+                        placeholder = "new task name"
+                        aria-label="new list name"> 
+                    </form>
+                </div>
+                
+               
+            </div>
+
+            <div class="tasks-container" data-second-container>
+                <h1 class="tasks-container-header">Tuesday</h1>
+                <div class="tasks" id="pSort">
+                    <form action="" form-tues>
+                        <input type="text" class="new-input list"
+                        input-tues
+                        placeholder = "new task name"
+                        aria-label="new list name"> 
+                    </form>
+                </div>
+            </div>
+ 
+
+            <div class="tasks-container" data-third-container>
+                <h1 class="tasks-container-header">Wednesday</h1>
+                <div class="tasks" id="pSort">
+                    <form action="" form-wed>
+                        <input type="text" class="new-input list"
+                        input-wed
+                        placeholder = "new task name"
+                        aria-label="new list name"> 
+                    </form>
+                </div>
+            </div>
+            <div class="tasks-container" data-fourth-container>
+                <h1 class="tasks-container-header">Thursday</h1>
+                <div class="tasks" id="pSort">
+                    <form action="" form-thu>
+                        <input type="text" class="new-input list"
+                        input-thu
+                        placeholder = "new task name"
+                        aria-label="new list name"> 
+                    </form>
+                </div>
+            </div>
+            <div class="tasks-container" data-fifth-container>
+                <h1 class="tasks-container-header">Friday</h1>
+                <div class="tasks" id="pSort">
+                    <form action="" form-fri>
+                        <input type="text" class="new-input list"
+                        input-fri
+                        placeholder = "new task name"
+                        aria-label="new list name"> 
+                    </form>
+                </div>
+            </div>
+            <div class="tasks-container" data-sixth-container>
+                <h1 class="tasks-container-header">Saturday</h1>
+                <div class="tasks" id="pSort">
+                    <form action="" form-sat>
+                        <input type="text" class="new-input list"
+                        input-sat
+                        placeholder = "new task name"
+                        aria-label="new list name"> 
+                    </form>
+                </div>
+            </div>
+            <div class="tasks-container" data-seventh-container>
+                <h1 class="tasks-container-header">Sunday</h1>
+                <div class="tasks" id="pSort">
+                    <form action="" form-sun>
+                        <input type="text" class="new-input list"
+                        input-sun
+                        placeholder = "new task name"
+                        aria-label="new list name"> 
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="todo-list-delete">
+        <button class="btn delete" data-clear-complete-tasks-button>Clear compelted tasks</button>
+        <button class="btn delete" data-delete-list-button>Delete List</button>
+    </div>
+    </div>
+   <template id="tasks-template">
+    <div class="tasks">
+        <input type="checkbox">
+        <label>
+            <span class="custom-checkbox"></span>
+        </label>
+    </div>
+   </template>
+</body>
+</html>
